@@ -1,0 +1,129 @@
+/* Individual Todo CSS */
+.todo-container{
+    padding:0.5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid #e8e4e4;
+    border-radius: 15px;
+}
+.todo-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    padding-bottom: 2em;
+}
+.todo-fields>input{
+    padding: 0.5em 0.5em;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: none;
+}
+.todo-fields>textarea{
+    background-color: white;
+    border: 1px solid white;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 0.5em 0.6em;
+    resize: none;
+}
+.buttons{
+    display: flex;
+    gap: 0.4em;
+}
+.buttons > button{
+    border-radius: 12px;
+    padding: 0.5em 1.2em ;
+    background-color: #f1eaea;
+    border: 1px solid #f1eaea;
+    cursor: pointer;
+}
+.todo-date{
+    font-weight: 600;
+    color: gray;
+    font-size: 13px;
+    padding-top: 0.2em;
+    padding-left: 0.7em;
+}
+
+/* Todo Details */
+.todo-details-main-div{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+.inner-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    padding: 1em;
+    gap: 2em;
+}
+.todo-details-form-container{
+    border-bottom: 1px solid gray;
+    padding-bottom: 2em;
+}
+.todo-details-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.inner-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.inner-form-input>input{
+    padding: 0.7em 0.5em;
+    font-weight: 600;
+    color: gray;
+}
+.inner-form-input, .inner-form-textarea{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    width: 100%;
+}
+.inner-form-textarea>textarea{
+    padding: 0.7em 0.5em;
+    font-weight: 600;
+    color: gray;
+    resize: none;
+}
+.todo-details-form > input{
+    background-color: rgb(4, 143, 224);
+    padding: 0.8em;
+    border:1px solid rgb(4, 143, 224);
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+} 
+.todo-details-form > input:hover{
+    background-color: rgb(7, 107, 179);
+} 
+.toggle-add-cancel{
+    background-color: rgb(4, 143, 224);
+    padding: 0.8em;
+    border:1px solid rgb(4, 143, 224);
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+.toggle-add-cancel:hover{
+    background-color: rgb(7, 107, 179);
+} 
+.individual-todo-map{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+}
